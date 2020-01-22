@@ -2,7 +2,7 @@
 
 -- Display the ProductName and CategoryName for all products in the database. Shows 77 records.
 
-select categoryname, productname, id
+select categoryname, productname
 from product as p
     join category as c
     on categoryid = c.id;
